@@ -1,0 +1,56 @@
+<div class="logo-slider">
+  <div class="logo-track">
+  <img src="/baner-loga/1.png">
+  <img src="/baner-loga/2.png">
+  <img src="/baner-loga/3.png">
+  <img src="/baner-loga/4.png">
+  <img src="/baner-loga/5.png">
+  <img src="/baner-loga/6.png">
+  <img src="/baner-loga/7.png">
+  <img src="/baner-loga/8.png">
+  <img src="/baner-loga/9.png">
+  <img src="/baner-loga/10.png">
+  <img src="/baner-loga/2.png">
+  <img src="/baner-loga/3.png">
+  <img src="/baner-loga/4.png">
+  <img src="/baner-loga/5.png">
+  <img src="/baner-loga/6.png">
+  <img src="/baner-loga/7.png">
+  <img src="/baner-loga/8.png">
+  <img src="/baner-loga/9.png">
+  <img src="/baner-loga/10.png">
+  </div>
+</div>
+
+<style>
+.logo-slider {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  padding: 10px 0;
+  background-color: #f8f8f8;
+}
+
+.logo-track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+.logo-track img {
+  height: 50px;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+</style>
